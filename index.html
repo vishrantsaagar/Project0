@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <style>
+    form{
+        position: absolute;
+        top: 35%;
+        left: 38%;
+    }
+
+    li{
+        display: inline-block;
+        padding: 10px;
+    }
+
+    #nav_bar #adv_search {
+    margin-right: 25px;
+    background: blue; 
+    border-radius: 3px;
+    cursor: pointer;
+    }
+
+    </style>
+        <title>Search</title>
+    </head>
+    <body>
+
+    <header>
+      <nav>
+        <ul id="nav_bar" style = "float: right">
+          <li class="nav-links"><a href="images.html">Images</a></li>
+          <li id="adv_search"><a href="#" style="color:white">Advanced Search</a></li>
+        </ul>  
+      </nav>  
+    </header>  
+
+        <form action="https://google.com/search">
+             <h1 style="text-align: center">Google Search</h1>
+            <input type="text" name="q" style="font-size:16px;height:35px;width:550px;border-radius: 20px;">
+            <div class = "buttons" style = "text-align: center;padding-top: 30px;margin-bottom: 300px;">
+                <input type="submit" value="Google Search" id="google_search">
+                <input type="submit" value="I'm Feeling Lucky" id = "im_feeling_lucky" formaction = "">
+            </div>
+        </form>
+    </body>
+</html>
