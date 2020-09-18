@@ -4,8 +4,8 @@
     <style>
     form{
         position: absolute;
-        top: 35%;
-        left: 38%;
+        top: 23%;
+        left: 35%;
     }
 
     li{
@@ -14,14 +14,37 @@
     }
 
     #nav_bar #adv_search {
-    margin-right: 25px;
-    background: #3396FF;
-    border-radius: 3px;
-    cursor: pointer;
+        margin-right: 25px;
+        background: #3396FF;
+        border-radius: 3px;
+        cursor: pointer;
     }
 
     a{
         text-decoration: none; 
+    }
+
+    input[type="submit"] {
+        background-color: #f2f2f2;
+        border: 1px solid #f2f2f2;
+        border-radius: 4px;
+        color: #5F6368;
+        font-size: 14px;
+        padding: 0 16px;
+        margin: 0 4px;
+        line-height: 27px;
+        height: 36px;
+        min-width: 54px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    input[type="text"]{
+        font-size:16px;
+        height: 40px;
+        width: 590px;
+        border-radius: 20px;
+        border: 1px solid #dfe1e5
     }
 
     </style>
@@ -40,10 +63,10 @@
 
         <form action="https://google.com/search">
              <h1 style="text-align: center">Google Search</h1>
-            <input type="text" name="q" style="font-size:16px;height:35px;width:550px;border-radius: 20px;">
+            <input type="text" name="q">
             <div class = "buttons" style = "text-align: center;padding-top: 30px;margin-bottom: 300px;">
-                <input type="submit" value="Google Search" id="google_search">
-                <input type="submit" value="I'm Feeling Lucky" id = "im_feeling_lucky" formaction = "">
+                <input type="submit" value="Google Search" name="btnK" id="google_search">
+                <input type="submit" value="I'm Feeling Lucky" name="btnI" id = "im_feeling_lucky">
             </div>
         </form>
     </body>
