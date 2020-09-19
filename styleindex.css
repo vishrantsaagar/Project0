@@ -1,3 +1,7 @@
+#google_logo {
+    text-align: center;
+}
+
 form{
     position: absolute;
     top: 23%;
@@ -10,10 +14,11 @@ li{
 }
 
 #nav_bar #adv_search {
+    background: #4887ef; 
     margin-right: 25px;
-    background: #3396FF;
-    border-radius: 3px;
-    cursor: pointer;
+    padding: 7px 15px;
+    border-radius: 3px; 
+    font-weight: bold;
 }
 
 a{

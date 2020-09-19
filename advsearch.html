@@ -11,21 +11,24 @@
             </nav>
         </header> 
     <div id = "advtitle" style = "margin-left:10px">Advanced Search</div>
-    <form action='/search' id="adv" name ="f">
+    <form action="https://google.com/search" id="adv" name ="q">
     <div id = "pages">Find pages with...</div>
     <div id = "entrants">
         <div>all these words:
-        <input type="text" name = "as-q" style="margin-left:95px">
+        <input type="text" name = "as_q" style="margin-left:95px">
         </div>
         <div style="margin-top:20px">this exact word or phrase:
-        <input type="text" name = "as-q" style="margin-left:30px">
+        <input type="text" name = "as_epq" style="margin-left:30px">
         </div>
         <div style="margin-top:20px">any of these words:
-        <input type="text" name = "as-q" style="margin-left:70px">
+        <input type="text" name = "as_oq" style="margin-left:70px">
         </div>
         <div style="margin-top:20px">none of these words:
-        <input type="text" name = "as-q" style="margin-left:60px">
+        <input type="text" name = "as_eq" style="margin-left:62px">
         </div>
+        <div>
+        <input type="submit" value="Advanced Search" id="google_adv">
+        </div>    
     </div>
     </body>
 </html>
