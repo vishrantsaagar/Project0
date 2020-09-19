@@ -1,15 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-    <style>
-    </style>
+        <link rel="stylesheet" href="styleadv.css">
         <title>Advanced Search</title>
     </head>
     <body>
         <header>
             <nav style = "float:right">
-            <div style = "padding: 15px"><a href="index.html">Search Page</a></div>
+            <div><a href="index.html" style = "margin-right: 25px">Search Page</a></div>
             </nav>
-        </header>  
+        </header> 
+    <div id = "advtitle" style = "margin-left:10px">Advanced Search</div>
+    <form action='/search' id="adv" name ="f">
+    <div id = "pages">Find pages with...</div>
+    <div id = "entrants">
+        <div>all these words:
+        <input type="text" name = "as-q" style="margin-left:95px">
+        </div>
+        <div style="margin-top:20px">this exact word or phrase:
+        <input type="text" name = "as-q" style="margin-left:30px">
+        </div>
+        <div style="margin-top:20px">any of these words:
+        <input type="text" name = "as-q" style="margin-left:70px">
+        </div>
+        <div style="margin-top:20px">none of these words:
+        <input type="text" name = "as-q" style="margin-left:60px">
+        </div>
+    </div>
     </body>
 </html>

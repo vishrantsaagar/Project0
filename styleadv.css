@@ -1,0 +1,36 @@
+#advtitle {
+    color: #d93025;
+    font-size: 24px;
+    margin: 25px 35px;
+    padding-top:30px
+}
+
+a{
+    text-decoration: none; 
+}
+
+#pages{
+    padding-left: 15px;
+    min-width: 167px;
+    width: 16%;
+    font-size: 18px;
+    height: 42px;
+    font-weight: 500;
+    color: #333;
+    vertical-align: middle;
+    padding-top: 20px;
+}
+
+#entrants{
+    padding-left: 15px;
+}
+
+input[type="text"] {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    clear: both;
+}
