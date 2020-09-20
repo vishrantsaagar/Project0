@@ -13,14 +13,6 @@ li{
     padding: 10px;
 }
 
-#nav_bar #adv_search {
-    background: #4887ef; 
-    margin-right: 25px;
-    padding: 7px 15px;
-    border-radius: 3px; 
-    font-weight: bold;
-}
-
 a{
     text-decoration: none; 
 }
